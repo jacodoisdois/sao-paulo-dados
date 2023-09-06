@@ -5,9 +5,11 @@ import styles from '../styles/style.module.css'
 import Header
  from '../components/Header';
 import {  formatCurrencyBRL, useTotalPlanValues } from './api/api';
-import config from '../config/config.json'
 
- const IndexPage = () => { 
+
+const config = JSON.parse(process.env.CONFIG)
+
+const IndexPage = () => { 
   const { data, isLoading, isError } =  useTotalPlanValues();
   const plansNames = Object.keys(config.Api.planCost) 
 
@@ -71,7 +73,7 @@ import config from '../config/config.json'
       </div>
     </div>
   </div>
-)
+  )
 }
 
 export default IndexPage
