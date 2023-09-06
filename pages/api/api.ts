@@ -2,7 +2,7 @@ import useSWR from "swr";
 import axios from 'axios'
 import { planDetails, plansType } from "./types";
 
-const config = JSON.parse(process.env.CONFIG)
+import config from '../../config/config.json'
 
 const fetcher = async (url: string) => {
   try {

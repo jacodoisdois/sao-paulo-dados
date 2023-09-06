@@ -1,0 +1,15 @@
+{
+  "Api": {
+    "url": "https://api.sociotorcedor.com.br",
+    "endpoints": {
+      "plansDetails": "public/xray"
+    },
+    "planCost": {
+      "vermelho": 18.99,
+      "branco": 35.99,
+      "preto": 74.99,
+      "tricolor": 115.99,
+      "diamante": 199.99
+    }
+  }
+}
