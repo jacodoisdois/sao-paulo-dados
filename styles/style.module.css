@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.logo{
+  /*  */
+  text-decoration: none;
+}
+
+.spfc-text{
+  font-family: 'Anton', sans-serif;
+  text-align: center !important;
+  font-weight: 400;
+  color: white;
+}
+
+.main-page-container{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subtext{
+  font-family: 'Roboto Slab', serif;
+}
+
+.div-finance-data{
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-header-finance-data{
+  text-align: left;
+}
+
+.div-header-plans-finance-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.div-plan-earnings{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.div-data-session{
+  margin-top: 2%;
+}
+
