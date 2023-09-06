@@ -5,9 +5,8 @@ import styles from '../styles/style.module.css'
 import Header
  from '../components/Header';
 import {  formatCurrencyBRL, useTotalPlanValues } from './api/api';
+import config from '../config/config.json';
 
-
-const config = JSON.parse(process.env.CONFIG)
 
 const IndexPage = () => { 
   const { data, isLoading, isError } =  useTotalPlanValues();

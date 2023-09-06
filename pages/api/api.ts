@@ -1,8 +1,7 @@
 import useSWR from "swr";
 import axios from 'axios'
 import { planDetails, plansType } from "./types";
-
-import config from '../../config/config.json'
+import config from '../../config/config.json';
 
 const fetcher = async (url: string) => {
   try {
